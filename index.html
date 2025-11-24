@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Elon Musk: Visionary Entrepreneur</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body { font-family: 'Arial', sans-serif; line-height: 1.6; color: #333; }
+        .container { max-width: 1200px; margin: 0 auto; padding: 0 20px; }
+        header { background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); color: white; padding: 2rem 0; text-align: center; }
+        h1 { font-size: 2.5rem; margin-bottom: 0.5rem; }
+        .subtitle { font-size: 1.2rem; opacity: 0.9; }
+        .hero-img { width: 200px; height: 200px; border-radius: 50%; margin: 1rem auto; object-fit: cover; border: 4px solid white; }
+        .section { padding: 3rem 0; }
+        .section:nth-child(even) { background: #f8f9fa; }
+        h2 { color: #2c3e50; margin-bottom: 1.5rem; font-size: 2rem; }
+        .grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 2rem; margin-top: 2rem; }
+        .card { background: white; padding: 1.5rem; border-radius: 10px; box-shadow: 0 4px 6px rgba(0,0,0,0.1); transition: transform 0.3s ease; }
+        .card:hover { transform: translateY(-5px); }
+        .card img { width: 100%; height: 200px; object-fit: cover; border-radius: 8px; margin-bottom: 1rem; }
+        .timeline { position: relative; padding-left: 2rem; }
+        .timeline::before { content: ''; position: absolute; left: 0; top: 0; bottom: 0; width: 2px; background: #667eea; }
+        .timeline-item { margin-bottom: 2rem; position: relative; }
+        .timeline-item::before { content: ''; position: absolute; left: -2rem; top: 0.5rem; width: 12px; height: 12px; background: #667eea; border-radius: 50%; }
+        .stats { display: flex; justify-content: space-around; flex-wrap: wrap; margin: 2rem 0; }
+        .stat { text-align: center; padding: 1rem; }
+        .stat-number { font-size: 2.5rem; font-weight: bold; color: #667eea; }
+        .btn { background: #667eea; color: white; padding: 0.8rem 2rem; border: none; border-radius: 5px; cursor: pointer; transition: background 0.3s; }
+        .btn:hover { background: #5a6fd8; }
+        @media (max-width: 768px) { h1 { font-size: 2rem; } .grid { grid-template-columns: 1fr; } .stats { flex-direction: column; } }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <img src="https://taalk.com/wp-content/uploads/2024/12/Elon-Musk.jpeg" alt="Elon Musk" class="hero-img">
+            <h1>Elon Musk</h1>
+            <p class="subtitle">Visionary Entrepreneur & Technology Pioneer</p>
+        </div>
+    </header>
+
+    <section class="section">
+        <div class="container">
+            <h2>Key Statistics</h2>
+            <div class="stats">
+                <div class="stat">
+                    <div class="stat-number">$400B</div>
+                    <div>Net Worth</div>
+                </div>
+                <div class="stat">
+                    <div class="stat-number">144</div>
+                    <div>Falcon 9 Flights</div>
+                </div>
+                <div class="stat">
+                    <div class="stat-number">6</div>
+                    <div>Major Companies</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="section">
+        <div class="container">
+            <h2>Major Ventures</h2>
+            <div class="grid">
+                <div class="card">
+                    <img src="https://img.etimg.com/thumb/width-1200,height-900,imgsize-45266,resizemode-75,msid-92526502/news/new-updates/happy-birthday-elon-musk-as-tesla-boss-turns-51-heres-a-look-at-his-key-accomplishments.jpg" alt="SpaceX">
+                    <h3>SpaceX</h3>
+                    <p>Founded in 2002, SpaceX revolutionized space travel with reusable rockets and became the first private company to send astronauts to the ISS.</p>
+                </div>
+                <div class="card">
+                    <img src="https://media.licdn.com/dms/image/v2/D5612AQEohihQ_72nvg/article-cover_image-shrink_720_1280/article-cover_image-shrink_720_1280/0/1732723083162?e=2147483647&v=beta&t=YaA-j9QWNSpl_zPVl90hFMNSiIwyTvv4kkLBCO7UZBo" alt="Tesla">
+                    <h3>Tesla</h3>
+                    <p>Leading electric vehicle manufacturer that transformed the automotive industry and accelerated sustainable transport adoption worldwide.</p>
+                </div>
+                <div class="card">
+                    <img src="https://media.licdn.com/dms/image/v2/D4E12AQFvRME59H73WA/article-cover_image-shrink_720_1280/article-cover_image-shrink_720_1280/0/1734672508248?e=2147483647&v=beta&t=DpV7G2UCheJApdpfzz8aamInM4ffY34QWDFPpec-CUE" alt="Neuralink">
+                    <h3>Neuralink</h3>
+                    <p>Brain-computer interface technology company developing implants to treat neurological conditions and enhance human cognition.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="section">
+        <div class="container">
+            <h2>Career Timeline</h2>
+            <div class="timeline">
+                <div class="timeline-item">
+                    <h3>1995 - Zip2</h3>
+                    <p>Co-founded online city guide, sold to Compaq for $307M</p>
+                </div>
+                <div class="timeline-item">
+                    <h3>1999 - PayPal</h3>
+                    <p>Founded X.com, merged to become PayPal, sold to eBay for $1.5B</p>
+                </div>
+                <div class="timeline-item">
+                    <h3>2002 - SpaceX</h3>
+                    <p>Founded with goal of Mars colonization and reducing space costs</p>
+                </div>
+                <div class="timeline-item">
+                    <h3>2004 - Tesla</h3>
+                    <p>Joined as early investor, became CEO in 2008</p>
+                </div>
+                <div class="timeline-item">
+                    <h3>2025 - $1T Pay Package</h3>
+                    <p>Tesla shareholders approved historic compensation plan</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            const cards = document.querySelectorAll('.card');
+            cards.forEach(card => {
+                card.addEventListener('mouseenter', function() {
+                    this.style.boxShadow = '0 8px 25px rgba(0,0,0,0.15)';
+                });
+                card.addEventListener('mouseleave', function() {
+                    this.style.boxShadow = '0 4px 6px rgba(0,0,0,0.1)';
+                });
+            });
+        });
+    </script>
+</body>
+</html>
